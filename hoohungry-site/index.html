@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoo Hungry? | Feed the night.</title>
+    <meta
+      name="description"
+      content="Hoo Hungry? is a minimalist food brand built around late-night cooking, baking, and food worth staying up for."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/owl-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Hoo Hungry home">
+          <img src="assets/owl-logo.png" alt="Hoo Hungry owl logo" />
+          <span>Hoo Hungry?</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#watch">Watch</a>
+          <a href="#recipes">Recipes</a>
+          <a href="#requests">Requests</a>
+          <a href="#about">About</a>
+        </nav>
+
+        <a class="nav-cta" href="#requests">Request a dish</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero-banner.png" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+          <p class="eyebrow">Late-night cooking & baking</p>
+          <h1>Food worth staying up for.</h1>
+          <p class="hero-copy">
+            A minimalist home for the midnight chef — savory dishes, baking, and
+            follow-along cooking made for real appetite after dark.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#watch">Explore the site</a>
+            <a class="button button-secondary" href="https://www.youtube.com/@hoohungry" target="_blank" rel="noreferrer">Visit YouTube</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip">
+        <div class="container intro-grid">
+          <div>
+            <p class="section-kicker">The brand</p>
+            <h2>Built around the night owl rhythm.</h2>
+          </div>
+          <p>
+            Hoo Hungry? blends a nocturnal identity with calm, skill-forward cooking.
+            The site is designed to be the clean home base for your videos, recipes,
+            and community requests.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="watch">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Watch</p>
+              <h2>From the midnight kitchen</h2>
+            </div>
+            <a class="text-link" href="https://www.youtube.com/@hoohungry" target="_blank" rel="noreferrer">Open the channel</a>
+          </div>
+
+          <div class="cards three-up">
+            <article class="card feature-card">
+              <span class="card-tag">Featured</span>
+              <h3>Latest recipe video</h3>
+              <p>
+                Use this space for the newest follow-along recipe or your strongest
+                signature dish.
+              </p>
+              <a class="button button-ghost" href="https://www.youtube.com/@hoohungry" target="_blank" rel="noreferrer">Watch on YouTube</a>
+            </article>
+
+            <article class="card">
+              <span class="card-tag">Savory</span>
+              <h3>Late-night comfort plates</h3>
+              <p>
+                Meals with depth, warmth, and enough visual detail to carry the brand.
+              </p>
+            </article>
+
+            <article class="card">
+              <span class="card-tag">Baking</span>
+              <h3>Sweet side of the brand</h3>
+              <p>
+                Cakes, bakes, and desserts that show your range without cluttering the site.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="recipes">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Recipes</p>
+              <h2>Core content buckets</h2>
+            </div>
+          </div>
+
+          <div class="recipe-grid">
+            <article class="recipe-card">
+              <h3>Midnight meals</h3>
+              <p>Rich, focused dishes for the hours when everything is finally quiet.</p>
+            </article>
+            <article class="recipe-card">
+              <h3>Comfort classics</h3>
+              <p>Familiar food executed with skill, restraint, and strong textures.</p>
+            </article>
+            <article class="recipe-card">
+              <h3>Bakes worth repeating</h3>
+              <p>Clean, dependable baking content that expands the brand naturally.</p>
+            </article>
+            <article class="recipe-card">
+              <h3>Follow-along cooking</h3>
+              <p>Simple recipe pages that pair well with your YouTube process videos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section request-section" id="requests">
+        <div class="container request-layout">
+          <div class="request-copy">
+            <p class="section-kicker">Night Owl Requests</p>
+            <h2>Tell Hoo Hungry? what to make next.</h2>
+            <p>
+              Give visitors a clean way to submit a craving, dish idea, bake, or comfort-food request.
+              Selected picks can become future videos, recipes, or viewer-featured posts.
+            </p>
+            <ul class="request-points">
+              <li>Dish ideas and late-night cravings</li>
+              <li>Baking requests or nostalgic favorites</li>
+              <li>Viewer-picked recipes for future content</li>
+            </ul>
+            <p class="small-note">
+              This demo form is wired for a static-site workflow. Replace the form action with your
+              Formspree or backend endpoint when you deploy.
+            </p>
+          </div>
+
+          <div class="request-card">
+            <form
+              action="https://formspree.io/f/your-form-id"
+              method="POST"
+              class="request-form"
+              id="requestForm"
+            >
+              <div class="field-row">
+                <label>
+                  <span>Name or nickname</span>
+                  <input type="text" name="name" placeholder="Night owl name" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@example.com" required />
+                </label>
+              </div>
+
+              <label>
+                <span>What should I make?</span>
+                <input
+                  type="text"
+                  name="dish"
+                  placeholder="Example: caramelized chicken wings"
+                  required
+                />
+              </label>
+
+              <label>
+                <span>Why this dish?</span>
+                <textarea
+                  name="notes"
+                  rows="5"
+                  placeholder="Share the craving, memory, or reason you'd want to see it."
+                ></textarea>
+              </label>
+
+              <label class="checkbox-row">
+                <input type="checkbox" name="feature_permission" />
+                <span>Okay to feature my first name and request on the site or channel.</span>
+              </label>
+
+              <button type="submit" class="button button-primary wide">Send request</button>
+              <p class="form-status" id="formStatus" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container about-layout">
+          <div class="about-mark">
+            <img src="assets/owl-logo.png" alt="Hoo Hungry owl logo mark" />
+          </div>
+          <div class="about-copy">
+            <p class="section-kicker">About</p>
+            <h2>A minimalist food brand shaped by late hours.</h2>
+            <p>
+              Hoo Hungry? uses the owl as more than a visual pun. It reflects your real rhythm as a
+              midnight chef: focused, steady, and fully locked in when the rest of the day has gone quiet.
+            </p>
+            <p>
+              This first version of the site is intentionally lean — strong branding up front, room for recipes,
+              and a built-in request form to help shape future cooking and baking content.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a class="brand footer-brand" href="#top">
+            <img src="assets/owl-logo.png" alt="Hoo Hungry owl logo" />
+            <span>Hoo Hungry?</span>
+          </a>
+          <p>Feed the night.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#watch">Watch</a>
+          <a href="#recipes">Recipes</a>
+          <a href="#requests">Requests</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
